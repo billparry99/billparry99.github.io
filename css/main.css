@@ -120,22 +120,24 @@ ul.posts li {
     float: center;
     display: block;
     color: #2196F3 /* black */;
-    text-align: right;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-}
+    }
 
 /* Style the links inside the navigation bar */
+/* check then remove
 .ctopnav a {
     float: center;
     display: block;
-    color: #2196F3 /* black */;
+    color: #2196F3;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
 }
+*/
 
 /* Change the color of links on hover */
 .ctopnav a:hover {
