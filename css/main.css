@@ -52,7 +52,7 @@ ul.posts li {
 /* Column container */
 .hrow { 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /* Add a black background color to the top navigation bar */
