@@ -49,8 +49,15 @@ ul.posts li {
 }
 /* restyle top nav for 3 columns 8*/
 
+/* Column container */
+.hrow { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Add a black background color to the top navigation bar */
 .ltopnav {
+    flex: 40%; /* Set the width of this
     overflow: hidden;
     background-color: #e9e9e9;
 }
@@ -105,6 +112,7 @@ ul.posts li {
 
 /* Add a black background color to the top navigation bar */
 .ctopnav {
+    flex: 20%; /* Set the width of this
     overflow: hidden;
     background-color: #e9e9e9;
 }
@@ -159,6 +167,7 @@ ul.posts li {
 
 /* Add a black background color to the top navigation bar */
 .rtopnav {
+    flex: 40%; /* Set the width of this
     overflow: hidden;
     background-color: #e9e9e9;
 }
