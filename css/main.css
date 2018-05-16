@@ -215,7 +215,8 @@ ul.posts li {
 .rtopnav input[type=text] {
     float: right;
     padding: 6px;
-    border: none;
+    border: 2px solid;
+    border-radius: 2px;
     margin-top: 8px;
     margin-right: 16px;
     font-size: .8em;
