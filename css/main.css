@@ -64,7 +64,7 @@ ul.posts li {
 
 /* Style the links inside the navigation bar */
 .ltopnav a {
-    float: left;
+    float: center;
     display: block;
     color: black;
     text-align: left;
@@ -174,7 +174,7 @@ ul.posts li {
 
 /* Style the links inside the navigation bar */
 .rtopnav a {
-    float: right;
+    float: center;
     display: block;
     color: black;
     text-align: right;
