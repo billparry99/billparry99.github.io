@@ -179,7 +179,7 @@ ul.posts li {
 
 /* Style the links inside the navigation bar */
 .rtopnav a {
-    float: right;
+    float: left;
     display: block;
     color: black;
     text-align: right;
