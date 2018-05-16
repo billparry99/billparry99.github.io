@@ -172,7 +172,7 @@ ul.posts li {
 
 /* Add a black background color to the top navigation bar */
 .rtopnav {
-    flex: 45%; /* Set the width of this */
+    flex: 55%; /* Set the width of this */
     overflow: hidden;
     background-color: #e9e9e9;
 }
