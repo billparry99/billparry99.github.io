@@ -64,7 +64,7 @@ ul.posts li {
 
 /* Style the links inside the navigation bar */
 .ltopnav a {
-    float: center;
+    float: left;
     display: block;
     color: black;
     text-align: left;
@@ -86,6 +86,7 @@ ul.posts li {
 }
 
 /* Style the search box inside the navigation bar */
+/* check then remove
 .ltopnav input[type=text] {
     float: right;
     padding: 6px;
@@ -94,6 +95,7 @@ ul.posts li {
     margin-right: 16px;
     font-size: 17px;
 }
+*/
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
@@ -135,12 +137,14 @@ ul.posts li {
 }
 
 /* Style the "active" element to highlight the current page */
+/* check and then remove
 .ctopnav a.active {
     background-color: #2196F3;
     color: white;
-}
+} */
 
 /* Style the search box inside the navigation bar */
+/* Check then remove
 .ctopnav input[type=text] {
     float: right;
     padding: 6px;
@@ -149,6 +153,7 @@ ul.posts li {
     margin-right: 16px;
     font-size: 17px;
 }
+*/
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
@@ -174,7 +179,7 @@ ul.posts li {
 
 /* Style the links inside the navigation bar */
 .rtopnav a {
-    float: center;
+    float: right;
     display: block;
     color: black;
     text-align: right;
@@ -190,10 +195,12 @@ ul.posts li {
 }
 
 /* Style the "active" element to highlight the current page */
+/* check then remove
 .rtopnav a.active {
     background-color: #2196F3;
     color: white;
 }
+*/
 
 /* Style the search box inside the navigation bar */
 .rtopnav input[type=text] {
