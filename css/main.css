@@ -70,7 +70,7 @@ ul.posts li {
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: .8em;
 }
 
 /* Change the color of links on hover */
@@ -124,7 +124,7 @@ ul.posts li {
     float: center;
     display: block;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -185,7 +185,7 @@ ul.posts li {
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: .8em;
 }
 
 /* Change the color of links on hover */
@@ -209,7 +209,7 @@ ul.posts li {
     border: none;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    font-size: .8em;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
