@@ -197,13 +197,13 @@ ul.posts li {
 /* Column container */
 .mainrow { 
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other - 75% 25% */
 /* Sidebar/left column */
 .mainmain {
-    flex: 65%; /* Set the width of the sidebar */
+    flex: 50%; /* Set the width of the sidebar */
     background-color: white; /* white background color */
     overflow: hidden;
     float: center;
@@ -213,7 +213,7 @@ ul.posts li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.6em;
-    }
+}
 
 /* Main column */
 .mainside { 
@@ -228,7 +228,7 @@ ul.posts li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.6em;
-    }
+}
 
 /* Fake image */
 .fakeimg {
@@ -272,7 +272,7 @@ ul.posts li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.6em;
-   }
+}
 
 /* subcolumn 2 */
 .mainsubrow2 {
@@ -286,9 +286,10 @@ ul.posts li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.6em;
-   }
+}
 
 .mainmainrow:after {
   content: "";
   display: table;
   clear: both;
+}
