@@ -242,7 +242,7 @@ ul.posts li {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  /*border: 1px solid #d5d5d5; */
+  border: 1px solid #d5d5d5;
 }
 
 /* Clear floats after the columns */
