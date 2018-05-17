@@ -202,18 +202,35 @@ ul.posts li {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-.mainside {
-    flex: 35%; /* Set the width of the sidebar */
+.mainmain {
+    flex: 65%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
     padding: 20px; /* Some padding */
-}
+    overflow: hidden;
+    float: center;
+    display: block;
+    color: black:
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6em;
+    }
 
 /* Main column */
-.mainmain { 
-    flex: 65%; /* Set the width of the main content */
+.mainside { 
+    flex: 35%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
-}
+    overflow: hidden;
+    float: center;
+    display: block;
+    color: black:
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6em;
+    }
+
 
 /* The sidebar menu */
 .sidenav {
