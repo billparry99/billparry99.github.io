@@ -200,10 +200,10 @@ ul.posts li {
     flex-wrap: nowrap;
 }
 
-/* Create two unequal columns that sits next to each other */
+/* Create two unequal columns that sits next to each other * - 75% 25%/
 /* Sidebar/left column */
 .mainmain {
-    flex: 65%; /* Set the width of the sidebar */
+    flex: 75%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
     overflow: hidden;
     float: center;
@@ -217,7 +217,7 @@ ul.posts li {
 
 /* Main column */
 .mainside { 
-    flex: 35%; /* Set the width of the main content */
+    flex: 25%; /* Set the width of the main content */
     height: 100%; /* Full-height: remove this if you want "auto" height *
     background-color: white; /* White background color */
     overflow: hidden;
