@@ -47,7 +47,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-/* restyle top nav for 3 columns 8*/
+/* !!!restyle top nav for 3 columns!!! */
 
 /* Column container */
 .hrow { 
@@ -55,7 +55,9 @@ ul.posts li {
     flex-wrap: nowrap;
 }
 
-/* Add a black background color to the top navigation bar */
+/* !!!left Coumn!!! */
+
+/* Set column width */
 .ltopnav {
     flex: 35%; /* Set the width of this */
     overflow: hidden;
@@ -85,18 +87,6 @@ ul.posts li {
     color: white;
 }
 
-/* Style the search box inside the navigation bar */
-/* check then remove
-.ltopnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
-*/
-
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
     .ltopnav a, .ltopnav input[type=text] {
@@ -112,7 +102,9 @@ ul.posts li {
     }
 }
 
-/* Add a black background color to the top navigation bar */
+/* !!!center column!!! */
+
+/* set column properties */
 .ctopnav {
     flex: 30%; /* Set the width of this */
     overflow: hidden;
@@ -126,41 +118,11 @@ ul.posts li {
     font-size: 1.6em;
     }
 
-/* Style the links inside the navigation bar */
-/* check then remove
-.ctopnav a {
-    float: center;
-    display: block;
-    color: #2196F3;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-*/
-
 /* Change the color of links on hover */
+/* check and then remove
 .ctopnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-/* Style the "active" element to highlight the current page */
-/* check and then remove
-.ctopnav a.active {
-    background-color: #2196F3;
-    color: white;
-} */
-
-/* Style the search box inside the navigation bar */
-/* Check then remove
-.ctopnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
 }
 */
 
@@ -179,7 +141,9 @@ ul.posts li {
     }
 }
 
-/* Add a black background color to the top navigation bar */
+/* !!!right column!!! */
+
+/* set coumn width */
 .rtopnav {
     flex: 35%; /* Set the width of this */
     overflow: hidden;
@@ -202,14 +166,6 @@ ul.posts li {
     background-color: #ddd;
     color: black;
 }
-
-/* Style the "active" element to highlight the current page */
-/* check then remove
-.rtopnav a.active {
-    background-color: #2196F3;
-    color: white;
-}
-*/
 
 /* Style the search box inside the navigation bar */
 .rtopnav input[type=text] {
