@@ -204,7 +204,7 @@ ul.posts li {
 /* Sidebar/left column */
 .mainmain {
     flex: 75%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
+    background-color: white; /* white background color */
     overflow: hidden;
     float: center;
     display: block;
@@ -218,7 +218,7 @@ ul.posts li {
 /* Main column */
 .mainside { 
     flex: 25%; /* Set the width of the main content */
-    height: 100%; /* Full-height: remove this if you want "auto" height *
+    height: 100%; /* Full-height: remove this if you want "auto" height */
     background-color: white; /* White background color */
     overflow: hidden;
     float: center;
@@ -242,6 +242,7 @@ ul.posts li {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  /*border: 1px solid #d5d5d5; */
 }
 
 /* Clear floats after the columns */
