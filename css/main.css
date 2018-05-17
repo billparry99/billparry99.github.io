@@ -218,6 +218,7 @@ ul.posts li {
 /* Main column */
 .mainside { 
     flex: 35%; /* Set the width of the main content */
+    height: 100%; /* Full-height: remove this if you want "auto" height *
     background-color: white; /* White background color */
     overflow: hidden;
     float: center;
