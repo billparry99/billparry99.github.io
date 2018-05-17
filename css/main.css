@@ -192,3 +192,25 @@ ul.posts li {
         border: 1px solid #ccc;
     }
 }
+
+/* style main feature and sidebar */
+/* Column container */
+.mainrow { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.mainside {
+    flex: 35%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.mainmain { 
+    flex: 65%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+}
