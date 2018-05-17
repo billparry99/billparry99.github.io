@@ -200,7 +200,7 @@ ul.posts li {
     flex-wrap: nowrap;
 }
 
-/* Create two unequal columns that sits next to each other * - 75% 25%/
+/* Create two unequal columns that sits next to each other - 75% 25% */
 /* Sidebar/left column */
 .mainmain {
     flex: 75%; /* Set the width of the sidebar */
@@ -251,3 +251,39 @@ ul.posts li {
   display: table;
   clear: both;
 }
+
+/* style main dub features */
+/* Column container */
+.mainmainrow { 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Create two equal columns that sits next to each other */
+/* subcolumn 1 */
+.mainsubrow1 {
+    flex: 50%; /* Set the width of the sidebar */
+    background-color: white; /* white background color */
+    overflow: hidden;
+    float: center;
+    display: block;
+    color: black:
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6em;
+   }
+
+/* subcolumn 1 */
+.mainsubrow2 {
+    flex: 50%; /* Set the width of the sidebar */
+    background-color: white; /* white background color */
+    overflow: hidden;
+    float: center;
+    display: block;
+    color: black:
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6em;
+   }
