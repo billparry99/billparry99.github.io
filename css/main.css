@@ -203,7 +203,7 @@ ul.posts li {
 /* Create two unequal columns that sits next to each other - 75% 25% */
 /* Sidebar/left column */
 .mainmain {
-    flex: 50%; /* Set the width of the sidebar */
+    flex: 75%; /* Set the width of the sidebar */
     background-color: white; /* white background color */
     overflow: hidden;
     float: center;
