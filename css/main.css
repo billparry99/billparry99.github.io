@@ -233,7 +233,7 @@ ul.posts li {
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
-  width: 100%;
+  width: 80%;
   padding: 20px;
 }
 
@@ -242,7 +242,7 @@ ul.posts li {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  border: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 /* Clear floats after the columns */
