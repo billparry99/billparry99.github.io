@@ -246,7 +246,7 @@ ul.posts li {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.mainrow:after {
   content: "";
   display: table;
   clear: both;
@@ -256,13 +256,13 @@ ul.posts li {
 /* Column container */
 .mainmainrow { 
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 /* Create two equal columns that sits next to each other */
 /* subcolumn 1 */
 .mainsubrow1 {
-    flex: 50%; /* Set the width of the sidebar */
+    flex: 37.5%; /* Set the width of  subrow1 */
     background-color: white; /* white background color */
     overflow: hidden;
     float: center;
@@ -274,9 +274,9 @@ ul.posts li {
     font-size: 1.6em;
    }
 
-/* subcolumn 1 */
+/* subcolumn 2 */
 .mainsubrow2 {
-    flex: 50%; /* Set the width of the sidebar */
+    flex: 37.5%; /* Set the width of subrow2 */
     background-color: white; /* white background color */
     overflow: hidden;
     float: center;
@@ -287,3 +287,8 @@ ul.posts li {
     text-decoration: none;
     font-size: 1.6em;
    }
+
+.mainmainrow:after {
+  content: "";
+  display: table;
+  clear: both;
