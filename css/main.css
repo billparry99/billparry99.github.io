@@ -197,7 +197,7 @@ ul.posts li {
 /* Column container */
 .mainrow { 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -205,7 +205,6 @@ ul.posts li {
 .mainmain {
     flex: 65%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
-    padding: 20px; /* Some padding */
     overflow: hidden;
     float: center;
     display: block;
@@ -220,7 +219,6 @@ ul.posts li {
 .mainside { 
     flex: 35%; /* Set the width of the main content */
     background-color: white; /* White background color */
-    padding: 20px; /* Some padding */
     overflow: hidden;
     float: center;
     display: block;
