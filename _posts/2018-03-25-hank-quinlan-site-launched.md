@@ -5,3 +5,16 @@ date: 2014-04-30
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+
+Firstly I would like to credit Jonatham McGlone as I used his wonderful guide to Creating and Hosting a Personal Site on GitHub to help me create this blog using Jekyll on GitHub sites.
+
+For the Ansible configuration I have used good old fashioned trial and error, together with the excellent
+Ansible: Up and Running, 2nd Edition
+By: Lorin Hochstein; Rene Moser
+Publisher: O’Reilly Media, Inc.
+
+I am primarily writing this to document the steps I have taken to get a better understanding of network automation. This is to ensure I have my own record so I can refer back if needed. But I also think that this may be useful for others who are embarking upon a similar journey.
+
+I started out just writing it all in my GitHub repository, but then I discovered GitHub sites and it immediatley became apparent that a blog would afford me the ability to be much more descriptive of the various topics, whilst then using my GitHub repository for the configuration. I actually prefer this approach as I feel it is a cleaner way to go about things, so I hope you do to.
+
+One thing that will become obvious pretty quickly, is that I am no expert when it comes to designing, building and running a website. I have taken the ‘suck it and see’ hacking approach to creating this site. So please forgive me if it is fairly rudimentary…for me its the content that counts and I will improve the site as I go.
