@@ -266,7 +266,7 @@ ul.posts li {
 /* Create two equal columns that sits next to each other */
 /* subcolumn 1 */
 .mainsubrow1 {
-    flex: 37.5%; /* Set the width of  subrow1 */
+    flex: 50%; /* Set the width of  subrow1 */
     background-color: white; /* white background color */
     overflow: hidden;
     float: center;
