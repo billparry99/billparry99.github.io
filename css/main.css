@@ -199,7 +199,7 @@ ul.posts li {
 /* Column container */
 .mainrow { 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /* Create two unequal columns that sits next to each other - 75% 25% */
