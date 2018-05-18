@@ -319,3 +319,7 @@ ul.posts li {
 .sidenav a:hover {
     color: #f1f1f1;
 }
+
+.excerptfont {
+    font-size: 1em;
+}
