@@ -7,7 +7,7 @@ title: Hank Quinlan, Horrible Cop
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-	    {{ post.excerpt }}<strong>Read more...</strong>
+	    {{ post.excerpt }}<strong><a href="{{ post.url }}">Read more...</strong></a>
     </li>
   {% endfor %}
 </ul>
