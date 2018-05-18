@@ -53,6 +53,8 @@ ul.posts li {
 .hrow { 
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 /* !!!left Coumn - 35 30 35!!! */
