@@ -259,7 +259,7 @@ ul.posts li {
     display: flex;
     flex-wrap: wrap;
     margin-left: 60px;
-    width: 75%;
+    width: 100%;
     left: 0px;
 }
 
