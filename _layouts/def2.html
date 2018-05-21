@@ -33,14 +33,18 @@
 												     
 			<div class="mainrow">
 			 	<div class="mainmain">
-					{{ content }}	
+					{% for page.categories = feature %}
+						     <a href="{{ post.url }}">{{ post.title }}</a>
+	    						{{ page.content }}
+    
+					{% endfor %}
 				</div>
 				
 				<div class="mainside">
 					<ul>
 						<h3>About</h3>
 						<h3>Labs</h3>
-						<h3>I</h3>
+						<h3>J</h3>
 				</div>
 			</div>
       			
