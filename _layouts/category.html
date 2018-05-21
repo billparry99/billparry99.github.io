@@ -2,8 +2,8 @@
 layout: page
 ---
 
-{% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
+{% for feature in site.categories[page.category] %}
+    <a href="{{ feature.url | absolute_url }}">
+      {{ feature.title }}
     </a>
 {% endfor %}
